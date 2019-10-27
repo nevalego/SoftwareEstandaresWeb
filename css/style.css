@@ -1,25 +1,30 @@
+/*  a=0 b=0 c=1 -> Specificity=1 */
 body {
     font: 400 15px Tahoma, sans-serif;
     line-height: 1.8;
     color: #818181;
     background-color: cadetblue;
 }
+/* a=0 b=0 c=0  -> Specificity=0 */
 section p,img, audio,video {
     background-color: white;
     color: darkslategrey;
     margin:15px;
     padding: 5px;
 }
+/* a=0 b=0 c=2 -> Specificity=2 */
 header h1{
     background-color: darkslategray;
     color: #fff;
     padding: 70px 15px;
     text-align: center;
 }
+/* a=0 b=0 c=3 -> Specificity=3 */
 nav ul >  li{
     display: inline;
     text-align: center;
 }
+/* a=0 b=0 c=0 -> Specificity=0 */
 footer,h2,h3,h4, a{
     color: white;
 }
