@@ -4,7 +4,7 @@ body {
     color: #818181;
     background-color: cadetblue;
 }
-section p,img {
+section p,img, audio,video {
     background-color: white;
     color: darkslategrey;
     margin:15px;

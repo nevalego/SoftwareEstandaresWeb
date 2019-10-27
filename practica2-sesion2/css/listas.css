@@ -1,0 +1,10 @@
+section ul,ol {
+    background-color: white;
+    color: darkslategray;
+    margin: 0.5em 2em;
+}
+section li{
+    letter-spacing: 0.3px;
+    list-style: circle;
+    font-family: Tahoma, Constantia, sans-serif;
+}
