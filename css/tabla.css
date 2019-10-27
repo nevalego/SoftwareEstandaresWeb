@@ -1,0 +1,18 @@
+table{
+    text-align: center;
+    margin: 2em;
+    background-color: white;
+    color: darkslategrey;
+}
+table caption{
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+}
+
+table td,th,tr{
+    border-collapse: separate;
+    border-spacing: 1em;
+    border: 1px solid #a2a9b1;
+    padding:  0.2em 0.4em;
+}
