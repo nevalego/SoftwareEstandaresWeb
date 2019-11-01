@@ -1,0 +1,20 @@
+/* a=0 b=0 c=1  -> Specificity=1 */
+table{
+    text-align: center;
+    margin: 2em;
+    background-color: white;
+    color: darkslategrey;
+}
+/* a=0 b=0 c=2 -> Specificity=2 */
+table caption{
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+}
+/* a=0 b=0 c=0 -> Specificity=0 */
+table td,th,tr{
+    border-collapse: separate;
+    border-spacing: 1em;
+    border: 1px solid #a2a9b1;
+    padding:  0.2em 0.4em;
+}
